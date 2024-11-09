@@ -9,8 +9,15 @@
     
 }
 .header-section .title-header {
-    text-align: center;
-    padding-top: 100px;
+    margin-left: 20px;
+    padding-top: 3px;
+    color: white;
+    font-size: 20px;
+}
+.header-section .title-header h4{
+    margin-left: 8px;
+    text-decoration: underline;
+    color: rgb(243, 243, 247);
 }
 .sec-1 .discount{
     color: red;
@@ -77,6 +84,12 @@
 }
 .sec-3 span{
     color: red;
+}
+.sec-3 .btn{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 .container {
     display: flex;
@@ -154,4 +167,110 @@ footer{
 }
 hr{
     width:300px;
+}
+.sec-2 span .picture-over{
+    height: 250px ;
+    width: 200px ;
+    margin-left: 460px;
+}
+.sec-5{
+    text-align: center;
+}
+.sec-5 .holi{
+    font-size: 40px;
+    color: red;
+}
+.sec-5 .C{
+    border: 2px solid red;
+    background-color: bisque;
+    width: fit-content;
+    margin-left: 47%;
+    padding: 5px;
+}
+.sec-6{
+    background: url("wow.jfif");
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+}
+.card-container{
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    padding: 20px;
+}
+.card-1 img{
+    height: 150px;
+    width: 150px;
+}
+.card-1 {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    box-shadow: 0px 30px 35px salmon;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.card-1:hover{
+    box-shadow:0px 30px 35px green ;
+    height: 270px ;
+    width: 190px ;
+}
+
+footer{
+    margin-top:20px ;
+}
+.sec-7 .team{
+    text-align: center;
+    font-size: 30px;
+    color: #d92f27;
+    text-decoration: underline;
+}
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 380px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-container input[type="email"] {
+    padding: 10px 15px;
+    flex: 1;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    border: none;
+}
+
+.subscribe-container button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+}
+
+.subscribe-container button:hover {
+    background-color: darkred;
+}
+.sec-8{
+padding: 5px;
+background-color: rgb(248, 159, 159);
+width: 600px;
+margin-left: 30%;
+border-radius: 10px;
+}
+.sec-8 .logo{
+    text-align: center;
+}
+.sec-8 .logo .subscribe-container{
+    margin-left: 12%;
 }
